@@ -20,8 +20,8 @@ def luhn_algorithm(card_number):
 
 async def send_messages():
     # Inicia el bot
-    bot = aiogram.Bot(token='6555009230:AAG4M1Hf55C2oqyN-0l4xhNQ_1PG_wHGxyg')
-    chat_id = -1002236263709
+    bot = aiogram.Bot(token='6882280996:AAFHCrV0s8yep4LGtYBXxoQQWMDS4oVy0i0')
+    chat_id = -4238585555
 
     # Lee el archivo de texto
     with open('cards.txt') as file:
